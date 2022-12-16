@@ -129,13 +129,13 @@
 }
 
 .main {
-    
+    margin-left: 250px;
     background-color: #fafafa;
     height: auto;
+    padding: 20px;
 }
 
 .main-wrapper {
-    margin-left: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -145,7 +145,10 @@
 @media screen and (max-width: 760px) {
     .main-wrapper {
         margin-top: 75px;
-        margin-left:0 ;
+    }
+
+    .main {
+        margin-left: 0px;
     }
 }
 
